@@ -16,6 +16,7 @@ body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
     padding: 0;
 }
 
+
 input,
 textarea,
 select {
@@ -48,7 +49,8 @@ h1, h2 {
 .mainer{
     min-width: 1169px;
     padding: 108px 0 120px 0;
-    position: absolute;
+    margin: 0 auto;
+    min-height: 470px;
 }
 
 .mainer .header{
@@ -58,15 +60,16 @@ h1, h2 {
     font-size: 34px;
     letter-spacing: 7px;
     text-align: center;
+    margin: 0 0 14px 0;
 }
 
 .mainer .rectangle{
     height: 4px;
     width: 45px;
     background-color: #dddbdb;
-    position: relative;
     left: 557px;
     margin: 14px 0 38px 0;
+    margin: 0 auto;
 }
 
 .mainer .header-text-block{
@@ -77,12 +80,12 @@ h1, h2 {
     line-height: 24px;
     text-align: center;
     width: 580px;
-    position: absolute;
     left: 304px;
+    margin: 34px auto 0 auto;
 }
 
 .mainer .team{
-    margin: 62px 10px;
+    margin: 56px 15px;
     width: 269px;
     min-height: 325px;
     display: inline-block;
@@ -146,4 +149,10 @@ h1, h2 {
 
 .photo-block:hover .wrap-icon:hover{
     background-color: #4ec0dd;
+}
+
+.team-wrapper{
+    margin: 0 auto;
+    width: 1210px;
+    box-sizing: border-box;
 }
