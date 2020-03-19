@@ -94,7 +94,7 @@ h1, h2 {
 .photo-block{
     width: 269px;
     height: 268px;
-    background-image: url(/images/team-photo.png);
+    background-image: url(../images/team-photo.png);
     opacity: 0.8;
 }
 
